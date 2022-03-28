@@ -2,9 +2,6 @@ package com.it_academy.onliner.framework;
 
 import com.codeborne.selenide.Configuration;
 
-import static com.codeborne.selenide.Selenide.open;
-
-
 public abstract class BasePage {
 
  public BasePage(){
@@ -12,4 +9,5 @@ public abstract class BasePage {
      Configuration.pageLoadTimeout= 20000;
      Configuration.startMaximized = true;
  }
+
 }

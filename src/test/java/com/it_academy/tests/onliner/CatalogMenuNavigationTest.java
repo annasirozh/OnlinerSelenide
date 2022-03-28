@@ -1,6 +1,5 @@
 package com.it_academy.tests.onliner;
 
-
 import com.it_academy.onliner.framework.BasePage;
 import com.it_academy.onliner.pageobject.OnlinerHomePage;
 import org.junit.jupiter.api.BeforeAll;
